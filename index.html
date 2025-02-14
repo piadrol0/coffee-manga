@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manga.com</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css"
+    />
+  </head>
+  <body>
+    
+    <div class="header">
+      <img src="./media/logo.jpg" alt="" />
+      <div class="i">
+        <i class="fa-solid fa-search"></i>
+        <i id="menu">
+            <div class="submenu" id="submenu">
+                <ul>
+                  <li>صفحه اصلی</li>
+                  <li>منوی کافه</li>
+                  <li>وبلاگ</li>
+                  <li>پیشنهاد انیمه</li>
+                  <li>تماس با ما</li>
+                  <li>EN</li>
+                </ul>
+              </div>
+        </i>
+      </div>
+    </div>
+    <!--swiper-->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./media/item1.jpg" alt="" /></div>
+        <div class="swiper-slide"><img src="./media/item2.jpg" alt="" /></div>
+        <div class="swiper-slide"><img src="./media/item3.jpg" alt="" /></div>
+        <div class="swiper-slide"><img src="./media/item4.jpg" alt="" /></div>
+        <div class="swiper-slide"><img src="./media/item5.jpg" alt="" /></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <!--swiper-->
+    <!--welcoming-->
+    <div class="welcoming">
+      <h1>قهوه مانگا</h1>
+      <hr />
+      <p>
+        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
+        از طراحان گرافیک است، چاپگرها و
+      </p>
+      <!-- <p>لورم ایپسوم متن ساختگی با</p>
+      <ul>
+        <li>منوی کافه</li>
+        <li>رویداد های ویژه</li>
+        <li>پیشنهاد انیمه</li>
+        <li>درباره ما</li>
+      </ul> -->
+    </div>
+    <!--welcoming-->
+    <!--sticky-->
+    <div class="box"></div>
+    <!--sticky-->
+    <!--items-->
+    <div class="items">
+      <h2>منوی کافه</h2>
+      <hr />
+      <a href="#"
+        ><div class="box1">
+          <div class="img"></div></div
+      ></a>
+      <a href="#"
+        ><div class="box1">
+          <div class="img"></div></div
+      ></a>
+      <a href="#"
+        ><div class="box1">
+          <div class="img"></div></div
+      ></a>
+    </div>
+    <!--items-->
+    <!--sticky-->
+    <div class="boxx"></div>
+    <!--sticky-->
+
+    <!--contact us-->
+    <div class="contact">
+      <h2>آدرس کافه</h2>
+      <hr />
+      <div class="center">
+        <!-- <div class="ul">
+        <h4>ارتباط با ما</h4>
+            <ul>
+                <li><i class="fa-brands fa-whatsapp"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+        </div> -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3237.955573496546!2d51.3171165!3d35.751896699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8dfd0001e3df37%3A0x6a93239f0ea5e572!2z2YLZh9mI2Ycg2YXYp9mG2q_Ypw!5e0!3m2!1sen!2sde!4v1739530160837!5m2!1sen!2sde"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+    <!--contact us-->
+    <!--footer-->
+    <footer>
+      <h2>All Right Reserved Golestan Company 2022-2025</h2>
+      <h4>Design By: Arya Babaei</h4>
+    </footer>
+    <!--footer-->
+    <!--whatsApp-->
+    <div class="circle"><i class="fa-brands fa-whatsapp"></i></div>
+    <!--whatsApp-->
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
