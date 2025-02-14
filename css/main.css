@@ -11,10 +11,10 @@
   width: 100%;
   font-size: 30px;
   height: 100px;
-  background-color: #87B8B2;
-  box-shadow: 1px 1px 10px #F7C4B3;
+  background-color: #E4E0E1;
+  box-shadow: 1px 1px 5px #493628;
   position: sticky;
-  border-bottom: 2px solid #F7C4B3;
+  border-bottom: 2px solid #493628;
   top: 0;
   z-index: 999;
   > img {
@@ -32,12 +32,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #F7C4B3;
+    color: #493628;
     > .fa-search {
       border-radius: 50%;
-      background-color: #87B8B2;
-      border: 2px solid #F7C4B3;
-      color: #F7C4B3;
+      background-color: #E4E0E1;
+      border: 2px solid #493628;
+      color: #493628;
       width: 40px;
       font-size: 20px;
       height: 40px;
@@ -81,23 +81,28 @@
   flex-direction: column;
   direction: rtl;
   padding: 0 10px;
-  background-color: #F7C4B3;
+  background-color: #E4E0E1;
   > p {
     margin: 50px auto;
     font-size: 17px;
     font-family: noora;
     text-align: justify;
+    color: #492828;
   }
 }
 .welcoming > h1 {
   text-align: center;
+  color: #493628;
   font-family: noora;
   margin: 20px auto 0;
-  width: 40%;
+  width: 50%;
 }
 .welcoming > hr {
   width: 40%;
-  background-color: #87B8B2;
+  background-color: #493628;
+  color: #493628;
+  height: 2px;
+  border: unset;
   margin: 0 auto;
   animation: show;
   animation-timing-function: linear;
@@ -106,24 +111,24 @@
 }
 .boxx {
   width: 100%;
-  background-image: url(../media/black.jpg);
+  /* background-image: url(../media/coffee2.avif); */
   background-repeat: no-repeat;
   overflow: hidden;
   z-index: 999;
-  background-position: right;
-  background-size: contain;
+  background-position: top;
+  background-size: cover;
   height: 150px;
-  margin: 5px auto;
+  margin: 5px auto 0;
   box-shadow: 1px 1px 10px black;
 }
 .box {
+  /* background-image: url(../media/box3.jpg); */
   width: 100%;
-  background-image: url(../media/wihte.jpg);
   background-repeat: no-repeat;
   overflow: hidden;
   z-index: 999;
-  background-position: right;
-  background-size: contain;
+  background-position: center;
+  background-size: cover;
   height: 150px;
   margin: 5px auto;
   box-shadow: 1px 1px 10px black;
@@ -140,29 +145,35 @@
   width: 100%;
   text-align: center;
   font-family: noora;
-  margin: 20px auto 0;
+  margin: 5px auto 0;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: center;  background-color: #E4E0E1;
+    color: #493628;
+    flex-direction: column;
   > hr {
     width: 40%;
-    background-color: black;
     margin: 0 auto;
     animation: show;
     animation-timing-function: linear;
     animation-iteration-count: 1;
     animation-duration: 600ms;
+    background-color: #493628;
+    color: #493628;
+    border-radius: 8px;
+    height: 2px;
+    border: unset;
   }
 }
 .items {
   width: 100%;
   padding: 20px 15px;
-  background-color: #87B8B2;
+  background-color: #E4E0E1;
   > h2 {
     text-align: center;
     font-family: noora;
     margin: 20px auto 0;
     width: 40%;
+    color: #493628;
   }
   > hr {
     width: 40%;
@@ -171,7 +182,10 @@
     animation: show;
     animation-timing-function: linear;
     animation-iteration-count: 1;
-    animation-duration: 600ms;
+    animation-duration: 600ms;  background-color: #493628;
+    color: #493628;
+    height: 2px;
+    border: unset;
   }
 
   > a > .box1 {
@@ -179,7 +193,8 @@
     width: 350px;
     height: 350px;
     border-radius: 8px;
-    border: 1px solid #F7C4B3;
+    border: 1px solid #492828;
+
     display: flex;
     flex-direction: column;
       >img{
@@ -192,13 +207,15 @@
 @media (max-width:370px) {
     h1{
         font-size: 30px;
+    color: #493628;
+
     }
     .items > a > .box1 {
         margin: 20px auto;
         width: 300px;
         height: 300px;
         border-radius: 8px;
-        border: 1px solid black;
+        border: 1px solid #492828;
         display: flex;
         flex-direction: column;
         > .img {
@@ -218,11 +235,13 @@ iframe{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    color: #493628;
     align-items: center;
     padding: 0 20px;
     >.ul{
         width: 40%;
-        color: rgb(50, 50, 50);
+        color: #493628;
+
     }
         >.ul > ul{
             list-style: none;
@@ -294,7 +313,7 @@ footer{
 .submenu{
     width: 100%;
     height: 300px;
-    background-color: #262626;
+    background-color: #E4E0E1;
     position: absolute;
     display: none;
     top: 250px;
@@ -311,7 +330,7 @@ footer{
       >li{
       font-family: noora;
       font-size: 12px;
-      color: white;
+      color: #493628;
       font-weight: 500;
         height: 44px;
         display: flex;
