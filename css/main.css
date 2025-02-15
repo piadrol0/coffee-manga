@@ -7,6 +7,11 @@ body{
   background-color: #E4E0E1;
 
 }
+@media (min-width : 1024px) {
+  .mobile{
+    display: none;
+  }
+}
 .header {
   display: flex;
   align-items: center;
