@@ -15,22 +15,22 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css"
     />
   </head>
-  <body>    
+  <body>
     <div class="header">
       <img src="./media/logo.jpg" alt="" />
       <div class="i">
         <i class="fa-solid fa-search"></i>
         <i id="menu">
-            <div class="submenu" id="submenu">
-                <ul>
-                  <li>صفحه اصلی</li>
-                  <li>منوی کافه</li>
-                  <li>وبلاگ</li>
-                  <li>پیشنهاد انیمه</li>
-                  <li>تماس با ما</li>
-                  <li>EN</li>
-                </ul>
-              </div>
+          <div class="submenu" id="submenu">
+            <ul>
+              <li>صفحه اصلی</li>
+              <li>منوی کافه</li>
+              <li>وبلاگ</li>
+              <li>پیشنهاد انیمه</li>
+              <li>تماس با ما</li>
+              <li>EN</li>
+            </ul>
+          </div>
         </i>
       </div>
     </div>
@@ -54,7 +54,13 @@
       <hr />
       <p>
         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
-        از طراحان گرافیک است، چاپگرها و
+        از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
+        سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+        متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+        درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با
+        نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان
+        خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید
+        داشت که تمام
       </p>
       <!-- <p>لورم ایپسوم متن ساختگی با</p>
       <ul>
@@ -74,26 +80,48 @@
       <hr />
       <a href="#"
         ><div class="box1">
-          <img src="./media/box4.jpg" alt=""></div
+          <img src="./media/box4.jpg" alt="" /></div
       ></a>
       <a href="#"
         ><div class="box1">
-          <img src="./media/box6.jpg" alt=""></div
+          <img src="./media/box6.jpg" alt="" /></div
       ></a>
       <a href="#"
         ><div class="box1">
-          <img src="./media/box11.jpg" alt=""></div
+          <img src="./media/box11.jpg" alt="" /></div
       ></a>
     </div>
     <!--items-->
     <!--sticky-->
     <div class="boxx"></div>
     <!--sticky-->
+    <!--team-->
+    <div class="team">
+      <h2>تیم ما</h2>
+      <hr />
+      <div class="swiper2 mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide s2"><img src="./media/a1.jpg" alt="" /></div>
+          <div class="swiper-slide s2"><img src="./media/a2.jpg" alt="" /></div>
+          <div class="swiper-slide s2"><img src="./media/a3.jpg" alt="" /></div>
+          <div class="swiper-slide s2"><img src="./media/a4.jpg" alt="" /></div>
+          <div class="swiper-slide s2"><img src="./media/a5.jpg" alt="" /></div>
+          <div class="swiper-slide s2"><img src="./media/a6.jpg" alt="" /></div>
+          <div class="swiper-slide s2"><img src="./media/a7.jpg" alt="" /></div>
+          <div class="swiper-slide s2"><img src="./media/a8.jpg" alt="" /></div>
+          <div class="swiper-slide s2"><img src="./media/a9.jpg" alt="" /></div>
+        </div>
+      </div>
+    </div>
+    <!--sticky-->
+    <div class="boxxx"></div>
+    <!--sticky-->
+    <!--team-->
 
     <!--contact us-->
     <div class="contact">
       <h2>آدرس کافه</h2>
-      <hr/>
+      <hr />
       <div class="center">
         <!-- <div class="ul">
         <h4>ارتباط با ما</h4>
@@ -141,6 +169,12 @@
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".mySwiper2", {
+        effect: "cards",
+        grabCursor: true,
       });
     </script>
   </body>

@@ -9,6 +9,5 @@ menu.addEventListener("click", () => {
   } else {
     subMenu.style.display = "none";
     menu.setAttribute("class", "fa-solid fa-bars");
-
   }
 });
