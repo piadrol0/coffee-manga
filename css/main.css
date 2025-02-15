@@ -137,6 +137,39 @@ body{
   margin: 5px auto;
   box-shadow: 1px 1px 10px black;
 }
+.animated-text {
+  transform: translateX(-100%); 
+  transition: transform 600ms ease-in-out; 
+}
+
+.animated-text.visible {
+  transform: translateX(0);
+}
+
+@keyframes slideIn {
+  from {
+      transform: translateX(-100%); 
+  }
+  to {
+      transform: translateX(0); 
+  }
+}
+@keyframes left {
+  from {
+    transform: translateX(200%); 
+}
+to {
+    transform: translateX(0); 
+}
+}
+.animated-textl {
+  transform: translateY(500px); 
+  transition: all 300ms linear; 
+}
+
+.animated-textl.visible {
+  transform: translateX(0);
+}
 .boxxx {
   background-image: url(../media/h5.jpg);
   width: 100%;
