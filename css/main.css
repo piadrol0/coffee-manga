@@ -325,8 +325,8 @@ iframe{
 footer{
     width: 100%;
     height: 40px;
-    background-color: rgb(45, 45, 45);
     display: flex;
+    background-image: url(../media/h4.jpg);
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -334,14 +334,16 @@ footer{
     >h2{
         font-family: sans-serif;
         font-size: 10px;
-        color: rgb(119, 119, 119);
+        color: #ae022d;
         font-weight: 500;
     }
     >h4{
         font-family: sans-serif;
         font-size: 10px;
         font-weight: 500;
-        color: rgb(93, 93, 93);
+        color: #ae022d;
+
+        
     }
 }
 .circle{
