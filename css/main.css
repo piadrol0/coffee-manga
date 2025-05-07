@@ -31,8 +31,8 @@ body {
   z-index: 999;
   > img {
     width: 60px;
-    height: 6ا0px;
-    border: 3px solid rgb(61, 33, 0);
+    height: 60px;
+    border: 1.8px solid rgb(61, 33, 0);
     animation: show;
     animation-timing-function: linear;
     animation-iteration-count: 1;
@@ -93,26 +93,29 @@ body {
   display: flex;
   flex-direction: column;
   direction: rtl;
+  
   padding: 0 10px;
   background-color: #e4e0e1;
   >h5{
       margin: 10px auto 20px;
       font-size: 20px;
-      font-family: noora;
+      font-family: artin;
       text-align: justify;
       color: #492828;
   }
   > p#first {
     margin: 10px auto;
     font-size: 17px;
-    font-family: noora;
+    font-family: artin;
+
     text-align: justify;
     color: #492828;
   }
   > p {
     margin-top: 10px ;
     font-size: 17px;
-    font-family: noora;
+    font-family: artin;
+
     text-align: justify;
     color: #492828;
     >span{
@@ -128,7 +131,8 @@ body {
 .welcoming > h1 {
   text-align: center;
   color: #493628;
-  font-family: noora;
+  font-family: artin;
+
   margin: 20px auto 0;
   width: 50%;
 }
@@ -224,13 +228,22 @@ body {
 .contact {
   width: 100%;
   text-align: center;
-  font-family: noora;
+  font-family: artin;
+
   margin: 5px auto 0;
   display: flex;
   justify-content: center;
   background-color: #e4e0e1;
   color: #493628;
   flex-direction: column;
+  >.addresss{
+    width: 80%;
+    border-radius: 8px;
+    margin: 20px auto 10px;
+    font-size: 17px;
+    padding: 8px;
+    font-family: artin;
+  }
   > hr {
     width: 40%;
     margin: 0 auto;
@@ -251,7 +264,8 @@ body {
   background-color: #e4e0e1;
   > h2 {
     text-align: center;
-    font-family: noora;
+    font-family: artin;
+
     margin: 20px auto 0;
     width: 40%;
     color: #493628;
@@ -430,7 +444,8 @@ footer {
 .team {
   width: 100%;
   padding: 10px 20px;
-  font-family: noora;
+  font-family: artin;
+
   display: flex;
   flex-direction: column;
   align-items: center;
