@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manga/Menu</title>
+    <link rel="stylesheet" href="./css/main2.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css"
+  />
+  </head>
+  <body>
+    <div class="header">
+      <img src="./media/logo.jpg" alt="" />
+      <div class="i">
+        <!-- <i class="fa-solid fa-search"></i> -->
+        <i id="menu">
+          <div class="submenu" id="submenu">
+            <ul>
+              <a href="./index.html"><li>صفحه اصلی</li></a>
+              <a href="#"><li>منوی کافه</li></a>
+              <a href="#select"><li>پیشنهاد انیمه</li></a>
+              <a href="#address"><li>ارتباط با ما</li></a>
+            </ul>
+          </div>
+        </i>
+      </div>
+    </div>
+    <h2 class="text">منوی کافه</h2>
+    <hr />
+    <div class="menuItem">
+        <div class="item"><img src="./media/new1.jpg" alt=""></div>
+        <div class="item"><img src="./media/new2.jpg" alt=""></div>
+        <div class="item"><img src="./media/new3.jpg" alt=""></div>
+        <div class="item"><img src="./media/new4.jpg" alt=""></div>
+        <div class="item"><img src="./media/item15.jpg" alt=""></div>
+        <div class="item"><img src="./media/new5.jpg" alt=""></div>
+        <div class="item"><img src="./media/new6.jpg" alt=""></div>
+        <div class="item"><img src="./media/new3.jpg" alt=""></div>
+        <div class="item"><img src="./media/new5.jpg" alt=""></div>
+        <div class="item"><img src="./media/new2.jpg" alt=""></div>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".mySwiper2", {
+        effect: "cards",
+        grabCursor: true,
+      });
+    </script>
+  </body>
+</html>
