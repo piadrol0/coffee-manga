@@ -12,28 +12,28 @@ menu.addEventListener("click", () => {
   }
 });
 window.addEventListener('scroll', function() {
-  const animatedTexts = document.querySelectorAll('.animated-text'); // انتخاب تمام عناصر
-  const screenPosition = window.innerHeight / 1.2; // 1.2 برای اینکه زودتر ظاهر شود
+  const animatedTexts = document.querySelectorAll('.animated-text');
+  const screenPosition = window.innerHeight / 1.2; 
 
-  animatedTexts.forEach(animatedText => { // حلقه برای هر عنصر
+  animatedTexts.forEach(animatedText => { 
       const textPosition = animatedText.getBoundingClientRect().top;
 
       if (textPosition < screenPosition) {
-          animatedText.classList.add('visible'); // اضافه کردن کلاس visible
-          animatedText.style.animation = 'slideIn 600ms ease-in-out'; // اجرای انیمیشن
+          animatedText.classList.add('visible'); 
+          animatedText.style.animation = 'slideIn 600ms ease-in-out'; 
       }
   });
 });
 window.addEventListener('scroll', function() {
-  const animatedTextl = document.querySelectorAll('.animated-textl'); // انتخاب تمام عناصر
-  const screenPosition = window.innerHeight / 1; // 1.2 برای اینکه زودتر ظاهر شود
+  const animatedTextl = document.querySelectorAll('.animated-textl'); 
+  const screenPosition = window.innerHeight / 1;
 
-  animatedTextl.forEach(animatedText => { // حلقه برای هر عنصر
+  animatedTextl.forEach(animatedText => { 
       const textPosition = animatedText.getBoundingClientRect().top;
 
       if (textPosition < screenPosition) {
-          animatedText.classList.add('visible'); // اضافه کردن کلاس visible
-          animatedText.style.animation = 'all 600ms linear'; // اجرای انیمیشن
+          animatedText.classList.add('visible');
+          animatedText.style.animation = 'all 600ms linear';
       }
   });
 });
