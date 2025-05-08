@@ -26,10 +26,10 @@ body {
    background-size: contain;
    background-position: center;
   box-shadow: 1px 1px 5px rgb(61, 33, 0);
-  position: sticky;
+  /* position: sticky; */
   border-bottom: 2px solid rgb(61, 33, 0);
   top: 0;
-  z-index: 999;
+
   > img {
     width: 60px;
     height: 60px;
@@ -435,11 +435,12 @@ footer {
   background-color: #e4e0e1;
   position: absolute;
   display: none;
-  top: 180px;
+  top: 200px;
   left: 50%;
+  z-index: 999;
   transform: translate(-50%, -50%);
   transition: all 300ms linear;
-  border-bottom: 1px solid #493628;
+  border-bottom: 3px solid #493628;
   > ul {
     display: flex;
     justify-content: center;
