@@ -22,9 +22,9 @@ body {
   height: 100px;
   /* background-image: url(../media/h4.jpg);
    */
-   background-image: url(../media/banner1.jpg);
-   background-size: contain;
-   background-position: center;
+  background-image: url(../media/banner1.jpg);
+  background-size: contain;
+  background-position: center;
   box-shadow: 1px 1px 5px rgb(61, 33, 0);
   /* position: sticky; */
   border-bottom: 2px solid rgb(61, 33, 0);
@@ -96,12 +96,12 @@ body {
   direction: rtl;
   padding: 10px 10px;
   background-color: #e4e0e1;
-  >#p > h5{
-      margin: 10px auto 20px;
-      font-size: 20px;
-      font-family: artin;
-      text-align: justify;
-      color: #492828;
+  > #p > h5 {
+    margin: 10px auto 20px;
+    font-size: 20px;
+    font-family: artin;
+    text-align: justify;
+    color: #492828;
   }
   > p#first {
     margin: 10px auto;
@@ -112,14 +112,14 @@ body {
     color: #492828;
   }
   > #p {
-    margin-top: 10px ;
+    margin-top: 10px;
     font-size: 17px;
     font-family: artin;
 
     text-align: justify;
     color: #492828;
-    >span{
-      margin-top: 10px ;
+    > span {
+      margin-top: 10px;
       font-size: 17px;
       font-family: artin;
       font-weight: bold;
@@ -150,18 +150,18 @@ body {
 }
 .boxx {
   width: 100%;
-  background-image: url(../media/h4.jpg);
+  background-image: url(../media/bannerrr.jpg);
   background-repeat: no-repeat;
   overflow: hidden;
   z-index: 999;
-  background-position: top;
+  background-position: center;
   background-size: cover;
   height: 150px;
   margin: 5px auto 0;
   box-shadow: 1px 1px 10px black;
 }
 .box {
-  background-image: url(../media/h4.jpg);
+  background-image: url(../media/banner5.jpg);
   width: 100%;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -206,7 +206,7 @@ body {
   transform: translateX(0);
 }
 .boxxx {
-  background-image: url(../media/h5.jpg);
+  background-image: url(../media/banner10.jpg);
   width: 100%;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -236,7 +236,7 @@ body {
   background-color: #e4e0e1;
   color: #493628;
   flex-direction: column;
-  >.addresss{
+  > .addresss {
     width: 80%;
     border-radius: 8px;
     margin: 20px auto 10px;
@@ -292,7 +292,7 @@ body {
     border: 1px solid #492828;
     display: flex;
     flex-direction: column;
-    background-color: #C5CCC9;
+    background-color: #c5ccc9;
     > img {
       border-radius: 8px;
       width: 100%;
@@ -424,15 +424,13 @@ footer {
       to right,
       #833ab4,#fd1d1d,#fcb045
     ); */
-    background: linear-gradient(
-      #9058b5 , #ff3737 , #ffbf65
-    );
-
+  background: linear-gradient(#9058b5, #ff3737, #ffbf65);
 }
 .submenu {
   width: 100%;
   height: 200px;
   background-color: #e4e0e1;
+  opacity: 0.9;
   position: absolute;
   display: none;
   top: 200px;
@@ -448,7 +446,7 @@ footer {
     align-items: end;
     flex-direction: column;
     list-style: none;
-    >a{
+    > a {
       font-size: 18px;
       text-decoration: none;
     }
@@ -502,4 +500,194 @@ footer {
   font-size: 22px;
   font-weight: bold;
   color: #fff;
+}
+.mangaHeader {
+  width: 100%;
+  height: 100px;
+  background-color: #cbafbd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  border-bottom: 2px solid black;
+  > .part1 {
+    width: 150px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    > img {
+      width: 80px;
+      height: auto;
+    }
+    > .part1-1 {
+      font-family: artin;
+      font-size: 24px;
+    }
+  }
+  > .part2 {
+    width: 100px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: artin;
+    > a > img {
+      width: 80px;
+      height: auto;
+    }
+  }
+}
+.mangaPhoto {
+  width: 100%;
+  border-bottom: 2px solid black;
+  height: auto;
+  > img {
+    width: 100%;
+    height: auto;
+  }
+}
+.mangaProducts {
+  width: 100%;
+  height: auto;
+  padding: 10px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  > .part2-1 {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 8px;
+    > img {
+      width: 100%;
+      height: 100%;
+      transform: scale(1.5);
+    }
+  }
+  > .part2-2 {
+    width: 230px;
+    height: 100px;
+    border-radius: 8px;
+    border: 2px solid black;
+    > p:first-child {
+      font-family: artin;
+      font-size: 24px;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    > p:last-child {
+      font-family: artin;
+      font-size: 18px;
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+  }
+}
+.sfooter {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 20px;
+  border-top: 2px solid black;
+  position: sticky;
+  background-color: #cbafbd;
+  bottom: 0;
+  > .op1 {
+    width: 50px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    > a {
+      text-decoration: none;
+      color: black;
+      font-family: artin;
+      font-size: 25px;
+    }
+  }
+}
+#menu {
+  font-size: 40px;
+}
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #cbafbd;
+}
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: #cbafbd;
+  fill: none;
+  stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+.mySwiper5 {
+  margin-top: 30px;
+}
+.swiper-button-next {
+  color: #cbafbd !important;
+}
+.swiper-button-prev {
+  color: #cbafbd !important;
+}
+.mangaProducts2 {
+  width: 100%;
+  height: auto;
+  padding: 10px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  > .part2-1 {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 8px;
+    > img {
+      width: 100%;
+      height: 100%;
+      transform: scale(1.5);
+    }
+  }
+  > .part2-2 {
+    width: 230px;
+    height: 100px;
+    border-radius: 8px;
+    border: 2px solid black;
+    > p:first-child {
+      font-family: artin;
+      font-size: 24px;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    > p:last-child {
+      font-family: artin;
+      font-size: 18px;
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+  }
 }
