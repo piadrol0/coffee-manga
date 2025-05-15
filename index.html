@@ -37,14 +37,59 @@
         </div>
       </div>
       <div class="mangaPhoto">
-        <img src="./media/square.jpg" alt="" />
+        <div class="japan" >
+          <p>漫</p>
+          <p>画</p>
+          <p>喫</p>
+          <p>茶</p>
+        </div >
       </div>
       <div class="mangaProducts">
-        <div class="part2-1"><img src="./media/box11.jpg" alt="" /></div>
+        <div class="swiper mySwiper5">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="part2-1"><img src="./media/box11.jpg" alt="" /></div>
+              <div class="part2-2">
+                <p>Matcha (抹茶)</p>
+                <p>細かく粉末にした緑茶</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="part2-1"><img src="./media/box11.jpg" alt="" /></div>
+              <div class="part2-2">
+                <p>Matcha (抹茶)</p>
+                <p>細かく粉末にした緑茶</p>
+              </div>
+            </div>
+                        <div class="swiper-slide">
+              <div class="part2-1"><img src="./media/box11.jpg" alt="" /></div>
+              <div class="part2-2">
+                <p>Matcha (抹茶)</p>
+                <p>細かく粉末にした緑茶</p>
+              </div>
+            </div>
+                        <div class="swiper-slide">
+              <div class="part2-1"><img src="./media/box11.jpg" alt="" /></div>
+              <div class="part2-2">
+                <p>Matcha (抹茶)</p>
+                <p>細かく粉末にした緑茶</p>
+              </div>
+            </div>
+                        <div class="swiper-slide">
+              <div class="part2-1"><img src="./media/box11.jpg" alt="" /></div>
+              <div class="part2-2">
+                <p>Matcha (抹茶)</p>
+                <p>細かく粉末にした緑茶</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="part2-1"><img src="./media/box11.jpg" alt="" /></div>
         <div class="part2-2">
           <p>Matcha (抹茶)</p>
           <p>細かく粉末にした緑茶</p>
-        </div>
+        </div> -->
       </div>
       <!--welcoming-->
       <div class="welcoming">
@@ -142,10 +187,14 @@
       </div>
       <!--items-->
       <!--sticky-->
-      <div class="boxx"></div>
+    <div class="overlay" id="overlay"></div>
+
+      <div class="suggest" id="price">
+
+      </div>
       <!--sticky-->
       <!--team-->
-      <div class="team">
+      <!-- <div class="team">
         <h2 class="animated-text" id="select">پیشنهاد انیمه</h2>
         <hr />
 
@@ -171,9 +220,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!--sticky-->
-      <div class="boxxx"></div>
+    
       <!--sticky-->
       <!--team-->
 
@@ -237,12 +286,31 @@
           prevEl: ".swiper-button-prev",
         },
       });
-    </script>
+      </script>
     <script>
       var swiper = new Swiper(".mySwiper2", {
         effect: "cards",
         grabCursor: true,
       });
     </script>
+    
+<script>
+    var swiper = new Swiper(".mySwiper5", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
   </body>
 </html>

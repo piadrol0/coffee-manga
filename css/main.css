@@ -147,11 +147,28 @@ body {
   animation-timing-function: linear;
   animation-iteration-count: 1;
   animation-duration: 600ms;
+  
 }
+    .mySwiper5 .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+     .mySwiper5 .swiper-slide {
+      text-align: center;
+      gap: 10px;
+      font-size: 18px;
+      background: transparent;
+      display: flex;
+      color: black;
+      justify-content: center;
+      align-items: center;
+    }
 .boxx {
   width: 100%;
-  background-image: url(../media/bannerrr.jpg);
+  background-image: url(../media/banner5.jpg);
   background-repeat: no-repeat;
+  
   overflow: hidden;
   z-index: 999;
   background-position: center;
@@ -161,7 +178,7 @@ body {
   box-shadow: 1px 1px 10px black;
 }
 .box {
-  background-image: url(../media/banner5.jpg);
+  background-image: url(../media/bannerrr.jpg);
   width: 100%;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -205,18 +222,7 @@ body {
 .animated-textl.visible {
   transform: translateX(0);
 }
-.boxxx {
-  background-image: url(../media/banner10.jpg);
-  width: 100%;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  z-index: 999;
-  background-position: center;
-  background-size: cover;
-  height: 150px;
-  margin: 15px auto;
-  box-shadow: 1px 1px 10px black;
-}
+
 @font-face {
   font-family: noora;
   src: url(../font/Noora\Regular\ \(@Ghaleb_wp\).ttf);
@@ -504,7 +510,7 @@ footer {
 .mangaHeader {
   width: 100%;
   height: 100px;
-  background-color: #cbafbd;
+  background-color: #CBAFBD;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -539,15 +545,25 @@ footer {
   }
 }
 .mangaPhoto {
+  background-image: url(../media/pov.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
   width: 100%;
   border-bottom: 2px solid black;
-  height: auto;
-  > img {
-    width: 100%;
-    height: auto;
+  display: flex;
+  align-items: center;
+  >.japan{
+    font-family: artin;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    font-weight: 600;
   }
 }
-.mangaProducts {
+.mySwiper5  .mangaProducts {
   width: 100%;
   height: auto;
   padding: 10px 25px;
@@ -555,7 +571,9 @@ footer {
   align-items: center;
   justify-content: space-between;
   border-bottom: 2px solid black;
-  > .part2-1 {
+
+}
+.mangaProducts .part2-1{
     width: 100px;
     height: 100px;
     overflow: hidden;
@@ -567,7 +585,7 @@ footer {
       transform: scale(1.5);
     }
   }
-  > .part2-2 {
+  .mangaProducts .part2-2{
     width: 230px;
     height: 100px;
     border-radius: 8px;
@@ -577,15 +595,15 @@ footer {
       font-size: 24px;
       margin-left: 10px;
       margin-top: 10px;
-    }
-    > p:last-child {
+  }
+        > p:last-child {
       font-family: artin;
       font-size: 18px;
       margin-left: 10px;
       margin-top: 5px;
     }
+
   }
-}
 .sfooter {
   width: 100%;
   height: 60px;
@@ -691,3 +709,29 @@ footer {
     }
   }
 }
+.suggest{
+     width: 80%;
+    height: 350px;
+    background-color: #CBAFBD;
+    padding: 10px 20px;
+    margin: 50px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 998;
+    text-align: center;
+    justify-content: center;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    display: block;
+    backdrop-filter: blur(10px); 
+  }
