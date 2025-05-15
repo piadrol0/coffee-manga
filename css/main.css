@@ -616,6 +616,7 @@ footer {
   position: sticky;
   background-color: #cbafbd;
   bottom: 0;
+  z-index: 999;
   > .op1 {
     width: 50px;
     height: inherit;
