@@ -36,9 +36,11 @@ window.addEventListener("scroll", function () {
     }
   });
 });
-let price = document.getElementById("price1");
-let overlay = document.getElementById("overlay1");
+let price1 = document.getElementById("price1");
+let overlay1 = document.getElementById("overlay1");
+let sfooter = document.getElementById("sfooter");
 setTimeout(() => {
-    price.style.display = "none";
-    overlay.style.display = "none"; 
+  price1.style.display = "none";
+  overlay1.style.display = "none";
+  sfooter.style.display = "flex";
 }, 3000);
