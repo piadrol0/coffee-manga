@@ -36,8 +36,8 @@ window.addEventListener("scroll", function () {
     }
   });
 });
-let price = document.getElementById("price");
-let overlay = document.getElementById("overlay");
+let price = document.getElementById("price1");
+let overlay = document.getElementById("overlay1");
 setTimeout(() => {
     price.style.display = "none";
     overlay.style.display = "none"; 
