@@ -43,4 +43,4 @@ setTimeout(() => {
   price1.style.display = "none";
   overlay1.style.display = "none";
   sfooter.style.display = "flex";
-}, 3000);
+}, 2000);
