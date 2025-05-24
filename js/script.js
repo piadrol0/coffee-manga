@@ -1,13 +1,22 @@
 let menu = document.getElementById("menu");
 let subMenu = document.getElementById("submenu");
+let overlay2 = document.getElementById("overlay2");
+let mangaProducts = document.getElementById("mangaProducts");
+let welcoming = document.getElementById("welcoming");
 menu.setAttribute("class", "fa-solid fa-bars");
 menu.addEventListener("click", () => {
   if (subMenu.style.display === "none" || subMenu.style.display === "") {
     subMenu.style.display = "block";
     menu.setAttribute("class", "fa-solid fa-xmark");
+    overlay2.style.display = "block";
+    mangaProducts.style.filter = "Blur(10px)";
+    welcoming.style.filter = "Blur(10px)";
   } else {
     subMenu.style.display = "none";
     menu.setAttribute("class", "fa-solid fa-bars");
+    overlay2.style.display = "none";
+    mangaProducts.style.filter = "Blur(0px)";
+    welcoming.style.filter = "Blur(0px)";
   }
 });
 window.addEventListener("scroll", function () {
@@ -43,4 +52,4 @@ setTimeout(() => {
   price1.style.display = "none";
   overlay1.style.display = "none";
   sfooter.style.display = "flex";
-}, 2000);
+}, 5000);
